@@ -1,0 +1,25 @@
+header{
+    background-color: violet;
+}
+footer{
+    background-color: violet;
+}
+*{ padding:0; 
+    margin:0;}
+.nav{
+    padding: 5px;
+    background-color: lightgreen;
+    text-decoration: none;
+    border-radius: 5px;
+    color: purple;
+}
+table{
+    background-color: lightgreen;
+    border-color: purple;
+    
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+}
