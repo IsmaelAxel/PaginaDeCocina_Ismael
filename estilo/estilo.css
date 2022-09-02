@@ -71,7 +71,9 @@ main{
 .comidas{
     border-radius: 10px;
     transition: width 2s, height 2s, transform 2s;
+    
 }
+
 .comidas:hover{
     width: 400px;
   height: 200px;
@@ -125,7 +127,6 @@ hr{
 .acercade{
     border-radius: 3%;
     border-style: solid;
-    position: relative;
     border-color: red;
 
 }
