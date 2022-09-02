@@ -1,81 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CocinaDeIsmael</title>
-    <link rel="shortcut icon" href="./imagenes/cocina.png" type="image/x-icon">
-    <link rel="stylesheet" href="./estilo/estilo.css">
-</head>
-<body bgcolor="lightgreen">
-    <header> <br><br>
-        <div align="center"><h1><i>
-            Cocina De Ismael
-        </i></h1></div>
-        <nav>
-            <a href="index.html"><img src="./imagenes/cocina.png" alt="Icono" width="30"></a>
-            <div align="center">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CocinaDeIsmael</title>
+        <link rel="shortcut icon" href="./imagenes/cocina.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">  
+    
+        <link rel="stylesheet" href="./estilo/estilo.css">
+    </head>
+    <body>
+        <header> <br><br>
+            <div align="center"><h1>
+                Cocina De ElvisCrespo
+            </h1></div>
+            <nav>
+                <a href="index.html"><img src="./imagenes/cocina.png" alt="Icono" width="30"></a>
+                <div align="center">
                 <a class="nav" href="index.html">Home</a>
                 <a class="nav" href="contacto.html">Contacto</a>
                 <a  class="nav" href="formulario.html">Trabaja con nosotros</a>
                 <a class="nav" href="acercade.html">Acerca de</a>
-            
-           <br><br>
-            </div>
-        </nav>
-    </header>
+                <br><br>
+                
+                </div>
+            </nav>
+        </header><hr>
     <main>
-       <h2>
-        <i>Ingresa tus datos:</i>
-       </h2>
-      
-       <form action="show-data.html" target="_blank">
-        <label for="nombre">Nombre</label><input type="text" required name="nombre" id="nombre" placeholder="introduzca su nombre..."> <br> <br>
-        <label for="apellido">Apellido</label><input type="text" required name="apellido" id="apellido" placeholder="introduzca su apellido..."> <br> <br>
-        <label for="ciudad">Ciudad</label> <input type="text" name="ciudad" id="ciudad" value="C.A.B.A."> <br><br>
-        <label for="fechan">Nacimiento</label> <input type="date" name="fechan" id="fechan"> <br><br>
-        <label for="edad">Edad</label> <input type="number" name="edad" id="edad"> <br><br>
-        <label for="email">Correo Electronico</label> <input type="email" name="email" id="email"> <br><br>
+       <h1>ingrese sus datos :</h1>
+      <div class="formulario">
+       <form action="show-data.html" target="_blank"><br>
+        <label for="nombre" class="separacion">Nombre</label><input type="text" required name="nombre" id="nombre" placeholder="introduzca su nombre...">  
+        <label for="apellido" class="separacion">Apellido</label><input type="text" required name="apellido" id="apellido" placeholder="introduzca su apellido..."> 
+        <label for="ciudad" class="separacion">Ciudad</label> <input type="text" name="ciudad" id="ciudad" value="C.A.B.A."> <br><br>
+        <label for="fechaN" class="separacion">Nacimiento</label> <input type="date" name="fechan" id="fechan"> 
+        <label for="edad" class="separacion">Edad</label> <input type="number" name="edad" id="edad"> 
+        <label for="email" class="separacion">Correo Electronico</label> <input type="email" name="email" id="email"><br><br>
         
-        
-        <h4>Seleccione un turno:</h4>
+        <p class="turnos">Seleccione un turno:
             <select name="turno" id="turno">
                 <option>Mañana</option>
                 <option>Tarde</option>
-                <option>Noche</option>
-        </select><br><br>
-        <h2>Genero:</h2><br>
-            <input type="radio" name="genero" value="Hombre">hombre
-            <input type="radio" name="genero" value="Mujer">mujer
-            <input type="radio" name="genero" value="otro">otro
-            </p><br><br>
-            <h2>Estudios:</h2><br>
-                <input type="checkbox" name="estudios" value="Primario">Primario <br><br>
-                <input type="checkbox" name="estudios" value="Secundario">Secundario <br><br>
-                <input type="checkbox" name="estudios" value="Terciario">terciario<br><br>
-                <input type="checkbox" name="estudios" value="Universitario">Universitario <br><br>
-                </p>
-        <label for="comentarios">Comentario:</label> <br> <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Dejanos un comentario :D"></textarea> <br><br>
+                <option>Noche</option></p>
+        </select></div><br><br>
+        <div class="formulario2">
+            <p class="separacion">Genero:
+            <input type="radio" name="genero" value="Hombre">hombre 
+            <input type="radio" name="genero" value="Mujer">mujer 
+            <input type="radio" name="genero" value="otro">otro </p>
+            
+                <p class="separacion"> Estudios:
+                <input type="checkbox" name="estudios" value="Primario">Primario 
+                <input type="checkbox" name="estudios" value="Secundario">Secundario 
+                <input type="checkbox" name="estudios" value="Terciario">terciario
+                <input type="checkbox" name="estudios" value="Universitario">Universitario</p> <br>
+         </div><br>     
+       
         
-        
+        <br><br><br>
         <input type="submit" value="Enviar">
         <input type="reset" value="limpiar">
-    </main>
-    <br>
+        <br><br>
+    </form></main>
+    <hr>
+    
+
     <footer>
+
         <nav>
             <br>
-            <p align="center"><b><i>Seguinos y comentanos:</i></b></p>
+            <p align="center">Seguinos y comentanos : </p><br>
            <div align="center">
             <a href="https://www.facebook.com/ismael.axel.7/" target="_blank"><img src="./imagenes/facebook (1).png" alt="Facebook" width="25"></a>
             <a href="https://twitter.com/elviscrespo04" target="_blank"><img src="./imagenes/twitter.png" alt="Twitter" width="25"></a>
             <a href="https://wa.me/+5491173696234?text=Hola,%20todo%20bien?" target="_blank"><img src="./imagenes/whatsapp.png" alt="whatsapp" width="25"></a>
             <a href="mailto:ismael_callamullo@hotmail.com" target="_blank"><img src="./imagenes/correo-electronico.png" alt="correo-electronico" width="25"></a>
             <a href="https://www.instagram.com/ismael.axel_/" target="_blank"><img src="./imagenes/instagram.png" alt="instagram" width="25"></a>
-            <br><br>
-            Derechos Reservados Por: elviscrespo
+            <br>
+            Derechos Reservados Por: ElvisCrespo
 
            </div>
         </nav>
     </footer>
+
+</body>
+</html>

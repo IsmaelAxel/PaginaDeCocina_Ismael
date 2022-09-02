@@ -1,25 +1,156 @@
 header{
-    background-color: violet;
-}
-footer{
-    background-color: violet;
-}
-*{ padding:0; 
-    margin:0;}
-.nav{
-    padding: 5px;
-    background-color: lightgreen;
-    text-decoration: none;
-    border-radius: 5px;
-    color: purple;
-}
-table{
-    background-color: lightgreen;
-    border-color: purple;
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+    color: red;
     
 }
+footer{
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+}
+*{  padding: auto;
+    margin: 0%;}
+.nav{
+    padding: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    
+}
+.nav:hover{
+    color: black;
+    background-color: red;
+}
+table{
+    background-color: #fff;
+    border-color: red;
+    border-radius: 10px;
+    border-style: dashed;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    }
+@keyframes example {
+    from{background-color: red;}
+    to{background-color: white;}
+  }
 
 a{
     padding: 5px;
     text-decoration: none;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+    
+}
+
+main{
+    background: #fff;
+    animation-name: main;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+@keyframes main {
+    from{background-color: black;}
+    to{background-color: white;}
+    
+}
+
+.subtitulos{
+    text-align: left;
+    font-family: 'Qwitcher Grypen', cursive;
+    color: red;
+    margin: 0%;
+    padding: 2%;
+}
+.comidas{
+    border-radius: 10px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.comidas:hover{
+    width: 400px;
+  height: 200px;
+  transform: rotate(360deg);
+}
+hr{
+    border-top-color: red;
+    border-bottom: 0ch;
+    border-width: 1ch;
+    padding: 0%;
+    border-right-width: 0ch;
+    border-left-width: 0ch;
+}
+.fuente1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.enlaces{
+    color: red;
+}
+
+.formulario{
+    border-style: dashed;
+    border-color: red;
+    border-radius: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+.turnos{
+    margin-left: 2%;
+    padding: 0.5%;
+    
+}
+
+.formulario2{
+    border-style: dashed;
+    border-color: red;
+    border-radius: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.separacion{
+    margin: 0.5% 0.5%;
+    padding: 0.5%;
+}
+
+.separacion::first-letter{
+    color: red;
+}
+.acercade{
+    border-radius: 3%;
+    border-style: solid;
+    position: relative;
+    border-color: red;
+
+}
+.texto{
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 0px auto;
+    position: relative;
+    border-color: red;
+}
+
+.frase{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: red;
+}
+
+#frase{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#ultimoenlace{
+    color: red;
+}
+#ultimoenlace:hover{
+    color: black;
+    
 }
