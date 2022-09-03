@@ -1,11 +1,12 @@
 header{
-    background-color: black;
+    background-color: #23272a;
     font-family: 'Permanent Marker', cursive;
     color: red;
     
+    
 }
 footer{
-    background-color: black;
+    background-color: #23272a;
     font-family: 'Permanent Marker', cursive;
     color: red;
 }
@@ -18,10 +19,12 @@ footer{
     border-radius: 5px;
     color: black;
     
+    
 }
 .nav:hover{
     color: black;
     background-color: red;
+    
 }
 table{
     background-color: #fff;
@@ -76,8 +79,8 @@ main{
 
 .comidas:hover{
     width: 400px;
-  height: 200px;
-  transform: rotate(360deg);
+    height: 200px;
+    transform: scale(1.2,1.2);
 }
 hr{
     border-top-color: red;
